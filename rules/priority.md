@@ -1,53 +1,228 @@
-# Priority System
+# PixelChibiAvatarEngine Priority Rules
 
 
-The generation priority is:
+## Core Priority Principle
+
+The uploaded image always has the highest priority.
+
+The system is transforming the person in the image.
+
+It is NOT creating a new character.
 
 
-## Priority 1: Person Identity
+The generated pixel character must remain recognizable as the original person.
 
-Must preserve:
+
+---
+
+# Priority Order
+
+
+## Priority 1: Identity Preservation ⭐⭐⭐⭐⭐
+
+Most important.
+
+
+Preserve:
 
 - hairstyle
+- hair length
 - hair color
+- bangs style
 - face shape
+- eye shape
 - eye expression
-- mouth expression
-- accessories
+- eyebrow characteristics
+- mouth shape
+- unique facial features
 
 
-## Priority 2: Pose
+The pixel character should keep the person's recognizable identity.
 
-Must preserve:
 
-- arm position
+Do not:
+
+- replace the face
+- create a random anime face
+- use a default character face
+
+
+---
+
+## Priority 2: Pose Preservation ⭐⭐⭐⭐⭐
+
+
+The original body posture must be maintained.
+
+
+Analyze and preserve:
+
 - body direction
+- head direction
+- arm position
+- hand gesture
 - sitting or standing posture
-- gesture
+- body leaning angle
 
 
-## Priority 3: Clothing
+Examples:
 
-Must preserve:
 
-- outfit type
-- main colors
+Photo:
+
+Person raises both arms.
+
+Result:
+
+Pixel character keeps raised arms.
+
+
+Photo:
+
+Person looks sideways.
+
+Result:
+
+Pixel character keeps looking sideways.
+
+
+Photo:
+
+Person sits.
+
+Result:
+
+Pixel character remains sitting.
+
+
+Never convert the pose into:
+
+- straight standing
+- front-facing idle pose
+- RPG NPC pose
+
+
+---
+
+## Priority 3: Clothing Preservation ⭐⭐⭐⭐
+
+
+Keep important clothing information.
+
+
+Preserve:
+
+- main clothing color
+- clothing silhouette
 - patterns
 - accessories
+- hats
+- jewelry
+- shoes
 
 
-## Priority 4: Pixel Style
+Simplify details into pixel blocks.
+
+
+Do not:
+
+- replace clothing
+- remove important patterns
+- create unrelated outfits
+
+
+---
+
+## Priority 4: Chibi Pixel Style ⭐⭐⭐⭐
+
+
+After preserving the person:
+
 
 Apply:
 
+- large head proportion
+- small body
+- cute silhouette
 - pixel blocks
-- chibi proportions
-- limited colors
+- limited color palette
 - soft shading
 
 
-## Priority 5: Artistic Enhancement
+Style should enhance the person.
 
-Only improve readability.
+Style should NOT replace the person.
 
-Never replace original features.
+
+---
+
+## Priority 5: Artistic Optimization ⭐⭐⭐
+
+
+Allowed:
+
+- improve pixel readability
+- simplify tiny details
+- enhance color harmony
+
+
+Not allowed:
+
+- change identity
+- change pose
+- redesign clothing
+
+
+---
+
+# Conflict Resolution
+
+
+If pixel style conflicts with photo details:
+
+
+Always choose:
+
+Photo details.
+
+
+If a fixed template conflicts with the person's pose:
+
+
+Always choose:
+
+The person's pose.
+
+
+If a default character looks cleaner but less similar:
+
+
+Choose:
+
+The more similar character.
+
+
+---
+
+# Final Quality Check
+
+
+Before output, verify:
+
+
+✓ Does the character look like the same person?
+
+✓ Is the hairstyle recognizable?
+
+✓ Is the facial expression preserved?
+
+✓ Is the pose preserved?
+
+✓ Is the outfit recognizable?
+
+✓ Does it look like a cute pixel version of the photo?
+
+
+If any answer is NO:
+
+Regenerate with stronger photo preservation.
