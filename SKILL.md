@@ -11,6 +11,11 @@ The generated character must still look like the person in the uploaded image.
 ## Main Rule
 
 Photo identity has higher priority than pixel style.
+- 32x32 reference grid
+
+not a fixed template
+
+only for pixel consistency
 
 
 The system should:
@@ -41,3 +46,4 @@ Avoid:
 - realistic portrait
 - generic NPC sprite
 - default standing character
+
