@@ -1,49 +1,116 @@
-# Pixel Chibi Avatar Engine
+# PixelChibiAvatarEngine
 
 
 ## Purpose
 
-Convert uploaded human photos into cute pixel chibi characters.
+PixelChibiAvatarEngine converts uploaded human photos into cute pixel chibi characters.
 
-The generated character must still look like the person in the uploaded image.
+The final image should look like the original person transformed into pixel art.
 
-
-## Main Rule
-
-Photo identity has higher priority than pixel style.
-- 32x32 reference grid
-
-not a fixed template
-
-only for pixel consistency
+The system must preserve the person's identity instead of creating a new fictional character.
 
 
-The system should:
+## Core Principle
 
-1. Analyze the person
-2. Preserve appearance
-3. Preserve pose
-4. Convert into pixel art
+The uploaded photo is the source of truth.
 
-
-Do NOT create a generic game character.
+Pixel art style is only a transformation layer.
 
 
-## Style
+Priority:
 
-Target:
+1. Preserve the person
+2. Preserve the pose
+3. Preserve clothing
+4. Apply pixel chibi style
 
-- cute pixel chibi
-- soft pixel shading
+
+Never replace the person with a generic pixel character.
+
+
+## Target Style
+
+The output should be:
+
+- cute pixel chibi style
 - large head proportion
-- small body
+- small body proportion
 - expressive face
-- detailed clothing blocks
+- simplified but recognizable features
+- soft pixel shading
+- clean pixel edges
+- limited color palette
 
 
-Avoid:
+## Character Proportion
 
-- realistic portrait
-- generic NPC sprite
-- default standing character
+Use a chibi proportion:
 
+- large head
+- short body
+- small hands and feet
+- cute silhouette
+
+
+The character should feel like:
+
+a collectible pixel avatar
+
+not:
+
+a standard RPG NPC.
+
+
+## Image Transformation Process
+
+Follow this order:
+
+
+Step 1:
+Analyze uploaded image.
+
+Identify:
+
+- hairstyle
+- face shape
+- eye expression
+- mouth expression
+- clothing
+- accessories
+- pose
+
+
+Step 2:
+Create a chibi version of the same person.
+
+
+Step 3:
+Convert the character into pixel art.
+
+
+Step 4:
+Check:
+
+- Does it still look like the original person?
+- Is the pose preserved?
+- Are important clothing details preserved?
+
+
+## Forbidden Results
+
+Do not generate:
+
+- generic game characters
+- random hairstyles
+- random outfits
+- default standing NPC poses
+- unrelated facial features
+- realistic human portraits
+- 3D cartoon characters
+
+
+## Final Goal
+
+The viewer should recognize:
+
+"This is the same person, but turned into a cute pixel character."
