@@ -12,20 +12,47 @@ The system must preserve the person's identity instead of creating a new fiction
 
 ## Core Principle
 
-The uploaded photo is the source of truth.
+## Core Principle
 
-Pixel art style is only a transformation layer.
+
+The uploaded photo provides identity references.
+
+However, the final result must become a cute chibi pixel doll.
+
+The system should preserve:
+
+- hairstyle
+- hair color
+- clothing
+- accessories
+- pose
+- overall impression
+
+
+The system should NOT preserve realistic facial anatomy.
 
 
 Priority:
 
-1. Preserve the person
-2. Preserve the pose
-3. Preserve clothing
-4. Apply pixel chibi style
+
+1. Cute chibi facial design
+2. Overall recognizable identity
+3. Hairstyle and clothing accuracy
+4. Pose preservation
+5. Pixel art rendering
 
 
-Never replace the person with a generic pixel character.
+The goal is:
+
+
+A cute pixel character inspired by the person.
+
+
+Not:
+
+
+A realistic human face converted into pixels.
+
 
 
 ## Target Style
