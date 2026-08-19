@@ -3,232 +3,263 @@
 
 ## Overview
 
-The generation process must transform the uploaded person into a pixel chibi character.
+The purpose of this workflow is to transform an uploaded real person photo into a cute pixel chibi character.
 
-The process has four stages:
+The uploaded photo is always the main source of identity.
 
-1. Analyze the person
-2. Build the chibi structure
-3. Apply pixel style
-4. Validate the result
+Reference images are only used to guide visual style and quality.
 
 
-The uploaded photo is always the identity source.
+The final result should be:
 
-Style references only control visual appearance.
+The same person transformed into pixel art.
+
+Not:
+
+A new fictional pixel character.
 
 
 ---
 
-# Stage 1: Photo Analysis
+# Reference Image Usage
 
 
-Before generating, analyze the uploaded image.
+All reference images are stored inside:
 
+参考/
+
+
+## Style Reference Images
+
+
+Files:
+
+- pixel_style_01.png
+- pixel_style_02.png
+
+
+Purpose:
+
+These images define the target visual style.
+
+
+Learn from them:
+
+
+- chibi proportion
+- pixel density
+- pixel block size
+- color palette
+- shading method
+- facial simplification
+- clothing rendering style
+
+
+Do NOT copy:
+
+
+- character identity
+- hairstyle
+- clothing
+- pose
+
+
+These images are style guides only.
+
+
+---
+
+## Identity Example Images
+
+
+Files:
+
+- person_example_01.png
+- person_example_02.png
+
+
+Purpose:
+
+These images demonstrate the relationship between:
+
+real person
+
+↓
+
+pixel chibi transformation
+
+
+Learn:
+
+
+- preserve human identity
+- preserve important features
+- maintain recognizable characteristics
+
+
+Do NOT copy:
+
+
+- the exact person
+- their appearance
+- their clothing
+
+
+The uploaded user photo always has higher priority.
+
+
+---
+
+# Generation Process
+
+
+## Step 1: Analyze Uploaded Photo
+
+
+Before creating the character, analyze:
+
+
+### Identity
 
 Extract:
 
-
-## Identity Features
-
-Analyze:
-
 - hairstyle
 - hair color
-- hair length
 - face shape
 - eye characteristics
 - facial expression
 - accessories
 
 
-Purpose:
+### Pose
 
-Maintain the person's identity.
-
-
----
-
-## Pose Features
-
-Analyze:
+Extract:
 
 - body direction
 - head direction
 - arm position
-- hand gestures
-- sitting/standing state
-- body leaning
+- hand gesture
+- body movement
 
 
-Purpose:
+### Clothing
 
-Preserve the original action.
-
-
----
-
-## Clothing Features
-
-Analyze:
+Extract:
 
 - outfit type
-- main colors
+- colors
 - patterns
 - accessories
-- clothing silhouette
-
-
-Purpose:
-
-Keep recognizable clothing.
+- silhouette
 
 
 ---
 
-# Stage 2: Chibi Conversion
+# Step 2: Create Chibi Structure
 
 
-Convert the analyzed person into chibi proportions.
+Convert the person into:
 
 
-Apply:
-
-
-- larger head
-- smaller body
-- shorter limbs
+- large head
+- small body
+- short limbs
 - cute silhouette
 
 
-Do NOT:
+Maintain:
 
 
-- create a new character
-- redesign appearance
-- change pose
+- original identity
+- original pose
+- original clothing
 
 
-The result should be:
-
-the same person in chibi form.
+Do not create a generic character.
 
 
 ---
 
-# Stage 3: Pixel Style Application
+# Step 3: Apply Pixel Style
 
 
-Apply pixel rendering style.
+Apply the style learned from:
 
 
-Use:
+参考/pixel_style_01.png
 
-- pixel blocks
-- clean edges
-- limited colors
-- soft pixel shading
-- simplified details
+参考/pixel_style_02.png
 
 
-Style reference images define:
+Match:
 
 
-- pixel density
+- pixel edges
+- pixel clusters
 - shading style
-- facial rendering
-- color treatment
-- overall visual feeling
+- color organization
 
 
-Do not copy:
-
-- reference character identity
-- reference clothing
-- reference pose
+Do not:
 
 
----
-
-# Stage 4: Detail Preservation
-
-
-Before finalizing, verify:
-
-
-## Identity Check
-
-✓ Same hairstyle?
-
-✓ Same face feeling?
-
-✓ Same expression?
-
-
-## Pose Check
-
-✓ Same body direction?
-
-✓ Same hand gesture?
-
-✓ Same action?
-
-
-## Clothing Check
-
-✓ Same outfit type?
-
-✓ Same important details?
-
-
-## Style Check
-
-✓ Cute pixel chibi style?
-
-✓ Clear pixel edges?
-
-✓ Large head proportion?
+- copy the reference characters
+- replace the person's features
 
 
 ---
 
-# Failure Recovery
+# Step 4: Identity Preservation Check
 
 
-If the result looks like:
+Before output:
 
 
-## Generic NPC
-
-Increase:
-
-- identity preservation
-- photo analysis
+Check:
 
 
-Reduce:
+✓ Does the character look like the uploaded person?
 
-- template influence
+✓ Is the hairstyle recognizable?
+
+✓ Is the facial expression preserved?
+
+✓ Is the clothing recognizable?
+
+✓ Is the pose maintained?
 
 
----
+If not:
 
-## Realistic Human
-
-Increase:
-
-- pixel conversion
-- chibi proportions
+increase photo feature preservation.
 
 
 ---
 
-## Different Person
+# Step 5: Style Quality Check
 
-Increase:
 
-- identity features
-- clothing preservation
+Check:
+
+
+✓ Cute pixel chibi style
+
+✓ Large head proportion
+
+✓ Clear pixel blocks
+
+✓ Soft shading
+
+✓ Clean silhouette
+
+
+Avoid:
+
+
+- realistic portrait
+- 3D cartoon
+- generic RPG NPC
+- random character design
 
 
 ---
@@ -236,22 +267,20 @@ Increase:
 # Final Rule
 
 
-The correct output is:
-
-Original person
-
-+
-
-Chibi transformation
-
-+
-
-Pixel art style
+The priority is:
 
 
-Never:
+1. Uploaded person photo
 
-Generic pixel character
+2. Identity preservation rules
 
-+
-some elements from the photo
+3. Pose preservation rules
+
+4. Clothing preservation rules
+
+5. Pixel style references
+
+
+Reference images define HOW to draw.
+
+The uploaded photo defines WHO to draw.
