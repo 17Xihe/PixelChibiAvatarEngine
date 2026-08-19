@@ -1,5 +1,26 @@
 # PixelChibiAvatarEngine Negative Rules
+# Anti Beauty Face Rules
 
+
+Avoid:
+
+
+- realistic beautiful face
+- mature woman appearance
+- fashion model face
+- sharp facial structure
+- realistic lips
+- detailed makeup
+- seductive expression
+
+
+The character should look:
+
+cute and adorable,
+
+not:
+
+beautiful and realistic.
 
 ## Purpose
 
