@@ -14,54 +14,83 @@ Identity replacement is forbidden.
 
 ---
 
-# Identity Priority
+# Priority Order
+
+
+## Priority 1: Cute Chibi Character Style ⭐⭐⭐⭐⭐
+
+
+The final character must first feel like a cute pixel doll.
+
+
+Required:
+
+- cute face
+- round proportions
+- playful expression
+- childlike charm
+
+
+
 ---
 
-# Identity Lock Enhancement v1.1
+## Priority 2: Recognizable Identity ⭐⭐⭐⭐⭐
 
 
-## Core Requirement
-
-
-# Chibi Identity Mapping Rules
-
-
-## Core Principle
-
-
-Identity preservation does NOT mean realistic face copying.
-
-
-The system should preserve recognizable characteristics:
+Preserve:
 
 - hairstyle
-- hair length
 - hair color
-- bangs
 - accessories
 - clothing
-- personal style
+- overall impression
 
 
-Facial features must be converted into a cute chibi interpretation.
+Identity should remain recognizable.
 
-
-The final character should be:
-
-
-recognizable as the person,
-
-but with a cute pixel doll face.
-
-
-NOT:
-
-
-a realistic pixel version of the person.
+However, facial features must be transformed into chibi style.
 
 
 
 ---
+
+## Priority 3: Pose Preservation ⭐⭐⭐⭐
+
+
+Preserve:
+
+- gesture
+- body direction
+- action
+- emotional meaning
+
+
+
+---
+
+## Priority 4: Clothing Preservation ⭐⭐⭐⭐
+
+
+Preserve:
+
+- outfit silhouette
+- colors
+- important patterns
+- accessories
+
+
+
+---
+
+## Priority 5: Pixel Rendering ⭐⭐⭐⭐
+
+
+Apply:
+
+- pixel blocks
+- soft shading
+- limited colors
+- clean edges
 
 # Facial Identity Priority
 
