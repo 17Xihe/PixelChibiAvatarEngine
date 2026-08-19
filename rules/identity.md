@@ -1,5 +1,137 @@
 # PixelChibiAvatarEngine Identity Preservation Rules
+# Chibi Face Conversion Rule
 
+
+## Core Principle
+
+
+Identity should be preserved through recognizable features.
+
+Do NOT copy realistic facial anatomy.
+
+
+The face must be redesigned as a cute pixel doll face.
+
+
+
+---
+
+# Face Transformation
+
+
+Convert:
+
+
+real human face
+
+
+into:
+
+
+cute chibi pixel face
+
+
+
+Keep:
+
+- hairstyle
+- hair silhouette
+- hair color
+- expression feeling
+
+
+Transform:
+
+- eyes
+- nose
+- mouth
+- face shape
+
+
+
+---
+
+# Eyes
+
+
+Required:
+
+
+- oversized eyes
+- round eye shape
+- bright highlights
+- innocent expression
+
+
+Avoid:
+
+
+- realistic eye proportion
+- mature gaze
+- model-like eyes
+- sharp eye shape
+
+
+
+---
+
+# Face Shape
+
+
+Use:
+
+
+- round cheeks
+- soft jaw
+- small chin
+- baby face
+
+
+Avoid:
+
+
+- V-shaped face
+- long face
+- mature beauty structure
+
+
+
+---
+
+# Mouth
+
+
+Use:
+
+
+- tiny pixel mouth
+- small smile
+- cute expression
+
+
+Avoid:
+
+
+- realistic lips
+- detailed mouth shape
+
+
+
+---
+
+# Final Feeling
+
+
+The face should feel like:
+
+
+a cute pixel doll
+
+
+not:
+
+
+a beautiful person turned into pixels.
 
 ## Purpose
 
