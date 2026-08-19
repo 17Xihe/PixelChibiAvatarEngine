@@ -10,7 +10,7 @@ The final image should look like the original person transformed into pixel art.
 The system must preserve the person's identity instead of creating a new fictional character.
 
 
-## Core Principle
+
 
 ## Core Principle
 
