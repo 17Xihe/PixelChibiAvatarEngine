@@ -16,7 +16,235 @@ It should not be redesigned.
 
 # Clothing Priority
 
+---
 
+# Clothing Lock Enhancement v1.1
+
+
+## Core Requirement
+
+
+The generated pixel character must preserve the original outfit identity.
+
+
+The goal is:
+
+
+same clothing
+
++
+
+pixel simplification
+
+
+Not:
+
+
+similar color replacement.
+
+
+
+---
+
+# Clothing Identity Priority
+
+
+Preserve in this order:
+
+
+1. Clothing silhouette
+
+2. Main colors
+
+3. Unique patterns
+
+4. Accessories
+
+5. Small decorative details
+
+
+
+---
+
+# Silhouette Preservation
+
+
+The overall shape of clothing is critical.
+
+
+Analyze:
+
+
+- dress length
+- sleeve shape
+- collar shape
+- jacket structure
+- loose or fitted style
+- skirt shape
+
+
+Examples:
+
+
+Photo:
+
+A-line dress
+
+
+Pixel:
+
+Keep A-line silhouette.
+
+
+
+Photo:
+
+Oversized hoodie
+
+
+Pixel:
+
+Keep oversized shape.
+
+
+
+Do not replace clothing type.
+
+
+
+---
+
+# Pattern Preservation Enhancement
+
+
+Important patterns must remain visible.
+
+
+Preserve:
+
+
+- flowers
+- embroidery
+- stripes
+- logos
+- prints
+- lace patterns
+
+
+Convert them into:
+
+
+- pixel clusters
+- simplified shapes
+- color blocks
+
+
+Do not completely remove patterns.
+
+
+
+---
+
+# Accessory Preservation
+
+
+Accessories are identity features.
+
+
+Preserve:
+
+
+- hats
+- bows
+- earrings
+- glasses
+- jewelry
+- watches
+- bags
+
+
+Small accessories may be simplified.
+
+They should not disappear.
+
+
+
+---
+
+# Material Representation
+
+
+Different materials should have different pixel treatment.
+
+
+Examples:
+
+
+White lace dress:
+
+Use subtle pixel texture.
+
+
+
+Knit sweater:
+
+Use soft block shading.
+
+
+
+Leather shoes:
+
+Use darker sharp pixel blocks.
+
+
+
+Do not make all materials look identical.
+
+
+
+---
+
+# Clothing Anti-Redesign Rule
+
+
+Never:
+
+
+- change dress into shirt
+- change skirt into pants
+- remove major accessories
+- invent new outfit
+
+
+The character should be wearing the same clothes as the photo.
+
+
+
+---
+
+# Clothing Verification v1.1
+
+
+Before output:
+
+
+Check:
+
+
+✓ Same clothing category?
+
+✓ Same main colors?
+
+✓ Same silhouette?
+
+✓ Same important patterns?
+
+✓ Same accessories?
+
+
+If no:
+
+restore original clothing details.
 Preserve:
 
 
