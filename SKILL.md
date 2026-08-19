@@ -138,6 +138,44 @@ Check:
 - Is the pose preserved?
 - Are important clothing details preserved?
 
+## Face Transformation Rule (Critical)
+
+
+The face must be redesigned into a chibi character face.
+
+
+Convert:
+
+
+Real human face
+
+↓
+
+Cute pixel doll face
+
+
+Required:
+
+
+- large eyes
+- round face
+- small nose
+- tiny mouth
+- soft cheeks
+- innocent expression
+
+
+Avoid:
+
+
+- realistic eyes
+- realistic lips
+- sharp jawline
+- mature beauty face
+- model-like appearance
+
+
+The face should look cute even without the hairstyle.
 
 ## Forbidden Results
 
