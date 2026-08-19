@@ -23,19 +23,41 @@ Identity replacement is forbidden.
 ## Core Requirement
 
 
-The pixel character must preserve the strongest recognizable features of the uploaded person.
+# Chibi Identity Mapping Rules
 
 
-The output should feel like:
+## Core Principle
 
 
-"the same person drawn as a pixel chibi"
+Identity preservation does NOT mean realistic face copying.
 
 
-not:
+The system should preserve recognizable characteristics:
+
+- hairstyle
+- hair length
+- hair color
+- bangs
+- accessories
+- clothing
+- personal style
 
 
-"a cute pixel character inspired by the person"
+Facial features must be converted into a cute chibi interpretation.
+
+
+The final character should be:
+
+
+recognizable as the person,
+
+but with a cute pixel doll face.
+
+
+NOT:
+
+
+a realistic pixel version of the person.
 
 
 
