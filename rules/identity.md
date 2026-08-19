@@ -15,7 +15,188 @@ Identity replacement is forbidden.
 ---
 
 # Identity Priority
+---
 
+# Identity Lock Enhancement v1.1
+
+
+## Core Requirement
+
+
+The pixel character must preserve the strongest recognizable features of the uploaded person.
+
+
+The output should feel like:
+
+
+"the same person drawn as a pixel chibi"
+
+
+not:
+
+
+"a cute pixel character inspired by the person"
+
+
+
+---
+
+# Facial Identity Priority
+
+
+When simplifying the face into pixel art:
+
+
+Preserve these features first:
+
+
+## Eyes
+
+
+Eyes are the strongest identity signal.
+
+
+Analyze:
+
+
+- eye shape
+- eye size
+- eye angle
+- eyelid shape
+- eye spacing
+- gaze direction
+
+
+Do not replace with a universal anime eye style.
+
+
+Different people must have different pixel eyes.
+
+
+
+---
+
+## Face Shape
+
+
+Maintain:
+
+
+- face width
+- chin shape
+- cheek proportion
+- overall facial silhouette
+
+
+The face can be simplified.
+
+The identity cannot be simplified away.
+
+
+
+---
+
+## Expression
+
+
+The original expression must remain.
+
+
+Examples:
+
+
+Photo:
+
+gentle smile
+
+
+Pixel:
+
+gentle smile
+
+
+Photo:
+
+neutral expression
+
+
+Pixel:
+
+neutral expression
+
+
+Do not automatically make every character:
+
+- smiling
+- cute
+- happy
+
+
+
+---
+
+# Hair Identity Enhancement
+
+
+Hair silhouette is a major identity feature.
+
+
+Preserve:
+
+
+- overall hair shape
+- hair volume
+- hair direction
+- bangs
+- hair accessories
+
+
+The hairstyle should be recognizable from a silhouette.
+
+
+---
+
+# Anti-Template Face Rule
+
+
+Avoid creating the same face for every character.
+
+
+Do not use:
+
+
+- identical round eyes
+- identical mouth
+- identical face shape
+
+
+Each generated character must inherit facial differences from the uploaded image.
+
+
+
+---
+
+# Identity Verification v1.1
+
+
+Before output:
+
+
+Ask:
+
+
+1. If the original photo disappeared, would this still feel like the same person?
+
+2. Are the eyes unique to this person?
+
+3. Is the hairstyle immediately recognizable?
+
+4. Is the expression preserved?
+
+
+If no:
+
+increase identity preservation.
 
 The following features are the most important:
 
