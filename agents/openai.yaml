@@ -1,0 +1,4 @@
+interface:
+  display_name: "像素真人小人"
+  short_description: "从真人照生成高辨识度像素小人"
+  default_prompt: "Use $pixel-chibi-avatar-engine to turn my attached photo into a full-body pixel chibi avatar."
