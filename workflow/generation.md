@@ -115,7 +115,29 @@ The uploaded user photo always has higher priority.
 
 ## Step 1: Analyze Uploaded Photo
 
+## Facial Feature Extraction
 
+
+Before creating the pixel character, perform a dedicated facial analysis.
+
+
+Extract:
+
+
+- eye shape
+- eye angle
+- eyebrow shape
+- mouth shape
+- face silhouette
+- expression characteristics
+
+
+These features must survive pixel conversion.
+
+
+The goal is not beauty optimization.
+
+The goal is identity preservation.
 Before creating the character, analyze:
 
 
