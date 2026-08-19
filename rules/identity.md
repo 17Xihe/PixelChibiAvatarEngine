@@ -98,25 +98,30 @@ Different people must have different pixel eyes.
 
 ---
 
-## Face Shape
+Face Shape:
 
 
-Maintain:
+Convert the original face into:
 
 
-- face width
-- chin shape
-- cheek proportion
-- overall facial silhouette
+- round baby face
+- soft cheeks
+- small chin
+- simplified shape
 
 
-The face can be simplified.
+Priority:
 
-The identity cannot be simplified away.
+cute > realistic
 
 
+Avoid:
 
----
+
+- sharp V face
+- long face
+- mature facial structure
+
 
 ## Expression
 
@@ -293,44 +298,34 @@ But must keep:
 
 ---
 
-# 3. Eye Characteristics ⭐⭐⭐⭐⭐
+Eye:
 
 
-Eyes are critical identity features.
+Transform original eyes into chibi eyes.
 
 
-Analyze:
-
-- eye size
-- eye shape
-- eye angle
-- eye distance
-- eyelid expression
-- open/closed eye state
+Required:
 
 
-Examples:
+- very large eyes
+- rounded eye shape
+- bright pixel highlights
+- innocent expression
 
 
-Person winking:
-
-Pixel character keeps wink.
+Eye proportion:
 
 
-Person with smiling eyes:
-
-Pixel character keeps smiling eyes.
+Eyes should occupy a large part of the face.
 
 
-Person looking sideways:
-
-Pixel character keeps gaze direction.
+Avoid:
 
 
-Do not:
-
-- create identical round anime eyes for everyone
-- remove expression
+- realistic eye size
+- thin eyes
+- detailed eyelashes
+- mature gaze
 
 
 ---
@@ -350,27 +345,24 @@ Eyebrows affect expression.
 
 ---
 
-# 5. Mouth Expression
+Mouth:
 
 
-Preserve:
-
-- smile
-- neutral expression
-- open mouth
-- lip shape impression
+Simplify mouth into:
 
 
-Convert into simple pixel expression.
+- tiny pixel mouth
+- small smile
+- cute expression
 
 
-Do not:
-
-- force a smile
-- force a cute expression
+Avoid:
 
 
----
+- realistic lips
+- lip shape reconstruction
+- mature expression
+
 
 # 6. Unique Features
 
@@ -443,6 +435,38 @@ Before final output check:
 
 ✓ Same accessories?
 
+## Cute Conversion Rule
+
+
+Before generating:
+
+
+Analyze:
+
+- hairstyle
+- clothing
+- color
+- pose
+
+
+Then redesign:
+
+
+human face
+
+↓
+
+cute pixel character face
+
+
+The face should look like:
+
+- game avatar
+- pixel doll
+- mascot character
+
+
+The result should feel adorable immediately.
 
 If identity is lost:
 
