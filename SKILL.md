@@ -57,16 +57,32 @@ A realistic human face converted into pixels.
 
 ## Target Style
 
+
 The output should be:
 
-- cute pixel chibi style
-- large head proportion
-- small body proportion
-- expressive face
-- simplified but recognizable features
-- soft pixel shading
-- clean pixel edges
-- limited color palette
+
+- extremely cute pixel chibi doll style
+- oversized head
+- tiny body
+- baby-like face
+- round cheeks
+- large sparkling eyes
+- tiny mouth
+- soft expression
+- simplified facial structure
+- collectible game character feeling
+
+
+The character should feel like:
+
+
+a cute pixel mascot
+
+
+NOT:
+
+
+a pixel portrait of a real person.
 
 
 ## Character Proportion
