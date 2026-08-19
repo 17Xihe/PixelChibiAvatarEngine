@@ -19,7 +19,199 @@ Create a new default character pose.
 ---
 
 # Pose Priority
+---
 
+# Pose Lock Enhancement v1.1
+
+
+## Core Requirement
+
+
+The pixel character must preserve the meaning of the original pose.
+
+
+The goal is:
+
+
+same action
+
++
+
+pixel chibi transformation
+
+
+Not:
+
+
+new character with a similar appearance
+
+
+
+---
+
+# Action Recognition Priority
+
+
+Before generating, identify:
+
+
+- what the person is doing
+- why the arms are positioned this way
+- the emotional meaning of the pose
+
+
+Examples:
+
+
+Photo:
+
+making a heart with hands
+
+
+Pixel:
+
+must still create a heart gesture.
+
+
+
+Photo:
+
+holding a skirt edge
+
+
+Pixel:
+
+must still hold the skirt edge.
+
+
+
+Photo:
+
+covering face with hand
+
+
+Pixel:
+
+must keep hand near face.
+
+
+
+---
+
+# Upper Body Pose Preservation
+
+
+Upper body has high priority.
+
+
+Preserve:
+
+
+- shoulder angle
+- arm height
+- elbow direction
+- hand location
+- hand gesture
+
+
+Do not simplify arms into:
+
+- straight hanging arms
+- symmetrical idle pose
+
+
+
+---
+
+# Gesture Protection
+
+
+Hand gestures are identity and emotion features.
+
+
+Preserve:
+
+
+- heart gesture
+- peace sign
+- waving
+- holding objects
+- touching face
+
+
+Simplify fingers if needed.
+
+Never remove the gesture.
+
+
+
+---
+
+# Body Orientation Lock
+
+
+Maintain:
+
+
+- front view
+- side view
+- three-quarter view
+- leaning direction
+
+
+Do not automatically rotate the character into a front-facing sprite.
+
+
+
+---
+
+# Chibi Pose Adaptation
+
+
+When converting to chibi:
+
+
+Allowed:
+
+
+- shorter limbs
+- larger head
+- simplified anatomy
+
+
+Not allowed:
+
+
+- changing the action
+- changing body meaning
+- replacing pose with default standing
+
+
+
+---
+
+# Pose Verification v1.1
+
+
+Before output:
+
+
+Check:
+
+
+✓ Same action?
+
+✓ Same hand gesture?
+
+✓ Same body direction?
+
+✓ Same emotional feeling?
+
+
+If no:
+
+
+Regenerate with stronger pose preservation.
 
 Pose is one of the highest priority features.
 
